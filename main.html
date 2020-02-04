@@ -28,8 +28,8 @@
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 	
-					  <div class="navbar-header">
-						<a class="navbar-brand" id="name">Andrew Shamrock</a>
+					  <div class="navbar-header pointer">
+						<a class="navbar-brand" id="name" onclick="window.location.href = 'images/Resume.pdf';">Andrew Shamrock</a>
 					  </div>
 
 				<div class="collapse navbar-collapse" id="navbarText">
@@ -41,13 +41,10 @@
 						<a class="nav-link" href="#about">About Me</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#career">Career</a>
-					  </li>
-					  <li class="nav-item">
 						  <a class="nav-link" href="#hobbies">Hobbies</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#contact">Get In Contact!</a>
+						  <a class="nav-link" href="#about">Get In Contact!</a>
 						</li>
 						<!-- <li class="nav-item">
 						  <a class="nav-link" href="#">Other Stuff I Think Is Cool</a>
@@ -163,13 +160,54 @@
 				But now you can test your knowledge on that and other useless trivia!!!
 			</p>
 			<p>
-				<b class="btn center" href="#">Take A Look <i class="fa fa-eye"></i></b>
+				<b class="btn center" onclick="window.location.href = 'https://ashamrock.github.io/TriviaGame/';">Take A Look <i class="fa fa-eye"></i></b>
 			</p><img alt="Bootstrap Image Preview" src="images/trivia.jpg" class="rounded-circle center">
 		</div>
-		
 	</div>
 
 	<br>
+
+	<div class="row">
+		<div class="col-md-4 text-center">
+			<h2>
+				Wellness
+			</h2>
+			<p>
+				This is a health management app. It logs steps and your BMI% to track how you are doing at meeting your preset goals. 
+			</p>
+			<p>
+				<b class="btn center" onclick="window.location.href = 'https://wellness-project.herokuapp.com/index';">Take A Look <i class="fa fa-eye"></i></b>
+			</p><img alt="Bootstrap Image Preview" src="images/hungrytaco.gif" class="rounded-circle center">
+		</div>
+
+		<div class="col-md-4 text-center">
+			<h2>
+				Crystal-Collector
+			</h2>
+			<p>
+				Just a simple random number guessing game.
+			</p>
+			<p>
+				<b class="btn center" onclick="window.location.href = 'https://ashamrock.github.io/Crystal-Collector/';">Take A Look <i class="fa fa-eye"></i></b>
+			</p><img alt="Bootstrap Image Preview" src="images/crystal.jpg" class="rounded-circle center">
+		</div>
+
+		<div class="col-md-4 text-center">
+			<h2>
+				Letter Guess
+			</h2>
+			<p>
+				If you had fun guessing numbers, then try this letter guessing game!
+			</p>
+			<p>
+				<b class="btn center" onclick="window.location.href = 'https://ashamrock.github.io/Word-Guess-Game/';">Take A Look <i class="fa fa-eye"></i></b>
+			</p><img alt="Bootstrap Image Preview" src="images/b.jpg" class="rounded-circle center">
+		</div>
+
+	</div>
+
+	<br>
+
 
 	<div class="row">
 		<div class="col-md-4 text-center">
@@ -209,9 +247,11 @@
 			</p><img alt="Bootstrap Image Preview" src="images/temp.jpg" class="rounded-circle center">
 		</div>
 	</div>
-	<br>
-	<b class="revbtn wide center" onclick="window.location.href = 'https://github.com/ashamrock';">Take a look at my github <i class="fa fa-eye"></i></b>
-
+	
+	<hr>
+	<b class="revbtn wide center pointer" onclick="window.location.href = 'https://github.com/ashamrock';" >Take a look at my github <i class="fa fa-eye"></i></b>
+	<b class="revbtn wide center pointer" onclick="window.location.href = 'https://www.linkedin.com/in/a-shamrock/';">Take a look at my LinkedIn <i class="fa fa-eye"></i></b>
+	<b class="revbtn wide center pointer" onclick="window.location.href = 'images/Resume.pdf';">View my resume <i class="fa fa-eye"></i></b>
 	<hr>
 
 	<div class="row">
@@ -220,7 +260,6 @@
 				Want to chat?
 				Dont be shy!
 			</h1>
-
 			<br>
 			
 			<dl class="text-center">
@@ -231,20 +270,11 @@
 					&#9742  440-497-0299  &#9742
 				</h4>
 			</dl>
-
-			<br>
-			<b class="revbtn wide center" onclick="window.location.href = 'https://www.linkedin.com/in/a-shamrock/';">Take a look at my LinkedIn <i class="fa fa-eye"></i></b>
-
 			<hr>
 
 		</div>
 		
 	</div>
-
-
-			
-
-
 
 				<div class="accordion" id="accordionExample">
 					<div class="card">
@@ -271,19 +301,20 @@
 					</div>
 
 					<div class="card">
-					  <div class="card-header toggle" id="career">
-						<h2 class="mb-0">
-						  <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							My Professional Career
-						  </button>
-						</h2>
-					  </div>
-					  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-						<div class="card-body">
-						....
+						<div class="card-header toggle" id="hobbies">
+						  <h2 class="mb-0">
+							<button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							  My Professional Career
+							</button>
+						  </h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						  <div class="card-body">
+							....
+						  </div>
 						</div>
 					  </div>
-					</div>
+
 					<div class="card">
 					  <div class="card-header toggle" id="hobbies">
 						<h2 class="mb-0">
@@ -298,6 +329,7 @@
 						</div>
 					  </div>
 					</div>
+
 				  </div>
 
 

@@ -235,3 +235,5 @@ color: teal;
   color: teal;
   border: 5px double teal;
 }
+
+.pointer {cursor: pointer;}
